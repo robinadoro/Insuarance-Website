@@ -24,6 +24,25 @@ body{
     margin-right: 15%;
     margin-left: 15%;
 }
+.icons3{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.icons3 img{
+    background-color: #D5D5D7;
+    height: 20%;
+    align-items: center;
+    margin-left: 10%;
+}
+#industry_text{
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-bottom: 5%;
+}
 .users{
     display: flex;
     flex-direction: row;
