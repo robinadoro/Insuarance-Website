@@ -1,6 +1,5 @@
 * {
-    font-family: sans-serif;
-
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     background-color: #FAFAFA;
@@ -8,8 +7,11 @@ body{
 .top_page{
   background-image: url("/imgs/hero-cover.3.png"); 
   background-repeat: no-repeat; 
-  height: 80vh;
-  width: 360vh;
+  height: 100%;
+  width: 100%;
+}
+.top_page img{
+    height: 200px;
 }
 #nav_buttons ul{
     list-style: none;
@@ -24,6 +26,60 @@ body{
     margin-right: 15%;
     margin-left: 15%;
 }
+.icons_top{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex; 
+}
+
+.icons_top img{
+    background-color: white;    
+    justify-content: space-evenly;
+    height: 25%; 
+  
+
+}
+/*#satis:hover{
+    background-color: #23A6F0;
+    color: white;
+}
+#mind:hover{
+    background-color: #23A6F0;
+    color: white;
+}
+#life:hover{
+    background-color: #23A6F0;
+    color: white;
+}*/
+#life, #mind, #satis{
+    justify-content: space-between;
+    border: 1px solid white;  
+    background-color: white;
+    
+
+}
+#life{
+    
+    height: 180px;
+    width: 10%;
+    margin-left: 2%;
+    
+}
+#mind{
+   
+    height: 180px;
+    width: 10%;
+    margin-left: 2%;
+
+}
+#satis{
+    background-color: #23A6F0;
+    color: white;
+    height: 180px;
+    width: 10%;
+    margin-left: 2%;
+}
+
 .icons3{
     background-color: white;
     display: flex;
@@ -36,6 +92,7 @@ body{
     height: 20%;
     align-items: center;
     margin-left: 10%;
+    margin-top: 20%;
 }
 #industry_text{
     align-items: center;
