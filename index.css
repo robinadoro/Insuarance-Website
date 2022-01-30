@@ -18,6 +18,16 @@
     display: flex;
     align-items: center;
 }
+.subscribe{
+    display: flex;
+    border: 1px solid black;
+}
+.subscribe button{
+    background-color: #23A6F0;
+    color: #FFFFFF;
+    justify-content: center;
+    
+}
 .packages{
     background-color: #FFFFFF;
     
@@ -87,11 +97,14 @@
     flex-direction: row;
     color: #FFFFFF;
     background-color: #252B42;
+    text-align: center;
 }
 .branches img{
     height: 150px;
     width: 300px;
     padding: 30px;
+    position: relative;
+    right: -10vh;
 
 }
 
