@@ -1,7 +1,73 @@
 * {
     font-family: sans-serif;
 }
-
+.top_page{
+  background-image: url("/imgs/hero-cover.3.png"); 
+  background-repeat: no-repeat; 
+  height: 80vh;
+  width: 360vh;
+}
+#nav_buttons ul{
+    list-style: none;
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+}
+.packages_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  
+}
+#free{
+    border: 1px solid #23A6F0;
+    border-radius: 7px;
+    background-color: white;
+    padding: 15px;
+}
+#free:hover{
+    background-color: #252B42;
+    color: white;
+    transform: translateY(-7px);
+  transition: transfom.3s;
+}
+#standard{
+    border: 1px solid #23A6F0;
+    border-radius: 7px;
+    background-color: white;
+    padding: 15px;
+}
+#standard:hover{
+    background-color: #252B42;
+    color: white;
+    transform: translateY(-7px);
+  transition: transfom.3s;
+}
+#premium{
+    border: 1px solid #23A6F0;
+    border-radius: 7px;
+    background-color: white;
+    padding: 15px;
+}
+#premium:hover{
+    background-color: #252B42;
+    color: white;
+    transform: translateY(-7px);
+  transition: transfom.3s;
+}
+.packages_box button{
+    background-color: #23A6F0;
+    color: #FFFFFF;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+}
 .end-btn {
     margin-top: 2vw;
     background-color: #23A6F0;
