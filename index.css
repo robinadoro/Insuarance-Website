@@ -1,5 +1,24 @@
+* {
+    font-family: sans-serif;
+}
 
-
+.end-btn {
+    margin-top: 2vw;
+    background-color: #23A6F0;
+    border: none;
+    width: 30vw;
+    height: 7vw;
+    font-size: 2vw;
+    color: #FFFFFF;
+    border-radius: 1.0vw;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .end-btn i {
+    float: right;
+  }
 table{
     text-align: left;
     margin: auto;
