@@ -1,3 +1,17 @@
+table{
+    text-align: left;
+    margin: auto;
+    align-items: center;
+    background: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height:200px;
+    box-shadow: white;
+}
+td{
+    padding: 7px;
+}
 .copyright{
     display: flex;
     flex-direction: row;
@@ -14,5 +28,5 @@
     margin-right: 200px;
 }
 #copytext{
-    margin-left: 200px;
+    margin-left: 100px;
 }
