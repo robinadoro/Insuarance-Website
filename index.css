@@ -18,18 +18,29 @@
     display: flex;
     align-items: center;
 }
+.packages{
+    background-color: #FFFFFF;
+    
+}
+#pricing{
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
 .packages_box{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-  
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;  
 }
 #free{
     border: 1px solid #23A6F0;
     border-radius: 7px;
     background-color: white;
     padding: 15px;
+    height: 360px;
+    
 }
 #free:hover{
     background-color: #252B42;
@@ -42,6 +53,7 @@
     border-radius: 7px;
     background-color: white;
     padding: 15px;
+    height: 360px;
 }
 #standard:hover{
     background-color: #252B42;
@@ -54,6 +66,7 @@
     border-radius: 7px;
     background-color: white;
     padding: 15px;
+    height: 360px;
 }
 #premium:hover{
     background-color: #252B42;
@@ -67,7 +80,21 @@
     border-radius: 5px;
     height: 40px;
     width: 100px;
+    text-align: center;
 }
+.branches{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    background-color: #252B42;
+}
+.branches img{
+    height: 150px;
+    width: 300px;
+    padding: 30px;
+
+}
+
 .end-btn {
     margin-top: 2vw;
     background-color: #23A6F0;
