@@ -1,0 +1,18 @@
+.copyright{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: 30px;
+    box-shadow: 0 0 0.6px;
+}
+#copyicons{
+  position: absolute;
+  right: -10px;
+}
+#copyicons img{
+    height: 50px;
+    margin-right: 200px;
+}
+#copytext{
+    margin-left: 200px;
+}
