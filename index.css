@@ -12,7 +12,7 @@ body{
 .top_page{
   background-image: url("./imgs/hero-cover.png"); 
   background-repeat: no-repeat; 
-  height: 700px;
+  height: 800px;
   width: 100%;
   background-size: 1920px;
  
@@ -110,39 +110,24 @@ body{
     margin-right: 15%;
     display: flex; 
     justify-content: space-between;
-    margin-top: 1000px;
+    margin-top: 15px;
+
 }
 
 .icons_top img{
     background-color: white;    
     height: 25%; 
 }
-/*#satis:hover{
-    background-color: #23A6F0;
-    color: white;
-}
-#mind:hover{
-    background-color: #23A6F0;
-    color: white;
-}
-#life:hover{
-    background-color: #23A6F0;
-    color: white;
-}*/
 #life, #mind, #satis{
     justify-content: space-between;
     border: 1px solid white;  
     background-color: white;
-    
-
 }
 #life{
     
     height: 180px;
     width: 25%;
-    margin-left: 2%;
-
-    
+    margin-left: 2%; 
 }
 #mind{
    
@@ -158,7 +143,10 @@ body{
     width: 25%;
     margin-left: 2%;
 }
-
+#satis img {
+    background-color: #23A6F0;
+    color: white;
+}
 .icons3{
     background-color: white;
     display: flex;
