@@ -30,14 +30,13 @@ body{
     margin-left: 15%;
     margin-right: 15%;
     display: flex; 
+    justify-content: space-between;
+    margin-top: 1000px;
 }
 
 .icons_top img{
     background-color: white;    
-    justify-content: space-evenly;
     height: 25%; 
-  
-
 }
 /*#satis:hover{
     background-color: #23A6F0;
@@ -61,14 +60,15 @@ body{
 #life{
     
     height: 180px;
-    width: 10%;
+    width: 25%;
     margin-left: 2%;
+
     
 }
 #mind{
    
     height: 180px;
-    width: 10%;
+    width: 25%;
     margin-left: 2%;
 
 }
@@ -76,7 +76,7 @@ body{
     background-color: #23A6F0;
     color: white;
     height: 180px;
-    width: 10%;
+    width: 25%;
     margin-left: 2%;
 }
 
