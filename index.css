@@ -20,12 +20,41 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+#nav_buttons ul li{
+    padding: 18%;
+}
 .nav_bar{
     display: flex;
     align-items: center;
     margin-right: 15%;
     margin-left: 15%;
 }
+#login{
+    font-weight: bold;
+    padding-left: 50%;
+    
+    
+}
+#become_button{
+    padding-left: 10%; 
+}
+.end-btn {
+    margin-top: 2vw;
+    background-color: #23A6F0;
+    border: none;
+    width: 15vw;
+    height: 3vw;
+    font-size: 1vw;
+    color: #FFFFFF;
+    border-radius: 1.0vw;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .end-btn i {
+    float: right;
+  }
 .icons_top{
     margin-left: 15%;
     margin-right: 15%;
@@ -90,7 +119,7 @@ body{
 .icons3 img{
     background-color: #D5D5D7;
     height: 20%;
-    align-items: center;
+    align-itbackground-image: linear-gradient(to right, #144688, #4d4697, #7d409d, #ab3298, #d31788);ems: center;
     margin-left: 10%;
     margin-top: 20%;
 }
@@ -134,6 +163,7 @@ body{
     border: 1px solid black;
     margin-right: 15%;
     margin-left: 15%;
+    background-image: linear-gradient(to right, #144688, #4d4697, #7d409d, #ab3298, #d31788);
 }
 .subscribe button{
     color: white;
@@ -141,6 +171,7 @@ body{
     padding: 12px 6px 12px;
     border: none;
     border-radius: 10%;
+    
     
 }
 .packages{
@@ -230,23 +261,7 @@ body{
 
 }
 
-.end-btn {
-    margin-top: 2vw;
-    background-color: #23A6F0;
-    border: none;
-    width: 30vw;
-    height: 7vw;
-    font-size: 2vw;
-    color: #FFFFFF;
-    border-radius: 1.0vw;
-    font-weight: bold;
-    cursor: pointer;
-    padding: 10px;
-  }
-  
-  .end-btn i {
-    float: right;
-  }
+
 table{
     text-align: left;
     margin: auto;
