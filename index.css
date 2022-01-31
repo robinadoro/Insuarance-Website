@@ -153,6 +153,8 @@ body{
     justify-content: space-between;
     padding-left: 15%;
     padding-right: 15%;
+    margin-top: 10%;
+    height: 6%;
 }
 .icons3 img{
     background-color: #D5D5D7;
