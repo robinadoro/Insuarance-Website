@@ -337,19 +337,35 @@ body{
    
 }
 
-table{
-    text-align: left;
-    margin: auto;
-    align-items: center;
-    background: white;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    height:200px;
-    box-shadow: white;
+.footer-info{
+    background-color: white);
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
 }
-td{
-    padding: 7px;
+.company-info{
+    text-align: left;
+}
+.company-info, h5{
+font-size: large;
+padding-top: 10px;
+padding-left: 42px;
+}
+.company-info ul{
+    text-decoration: none;
+    list-style: none;
+}
+.company-info ul li{
+    font-size: medium;
+}
+.footer{
+    display: inline-flex;
+    margin: auto;
+    padding-top: 35px;
+}
+.footer-images{
+    padding-left: 750px;
+    padding-top: 5px;
 }
 .copyright{
     display: flex;
