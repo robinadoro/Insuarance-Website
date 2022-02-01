@@ -203,23 +203,35 @@ body{
     width: 9%;
 }
 .subscribe{
+    padding: 1%;
     display: flex;
     border: 1px solid black;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 18%;
+    margin-left: 18%;
     background-image: linear-gradient(to right, #144688, #4d4697, #7d409d, #ab3298, #d31788);
+}
+.subscribe h3{
+    color: white;
+    margin-left: 5%;
 }
 .subscribe button{
     color: white;
     background-color: #23A6F0;
-    padding: 12px 6px 12px;
     border: none;
-    border-radius: 10%;
-    
-    
+    border-radius: 5%;  
+    height: 60px;
+    margin-top: 1%;
+}
+.subscribe input{
+    margin-left: 50%;
+    height: 60px;
+    width: 20%;
+    border-radius: 5%;
+    border: none;
+    margin-top: 1%;
 }
 .packages{
-    background-color: #FFFFFF;
+    
     margin-right: 15%;
     margin-left: 15%;
     
@@ -228,6 +240,10 @@ body{
     align-items: center;
     position: relative;
     text-align: center;
+    margin-top: 7%;
+}
+#pricing h1{
+    font-weight: bold;
 }
 .packages_box{
     display: flex;
@@ -242,9 +258,17 @@ body{
     border-radius: 7px;
     background-color: white;
     padding: 15px;
-    height: 360px;
-    width: 30%;
-    
+    height: 560px;
+    width: 30%; 
+}
+.packages_box h3{
+    padding: 10%;
+}
+.packages_box h4{
+    padding: 1%;
+}
+.packages_box li{
+    padding: 5%;
 }
 #free:hover{
     background-color: #252B42;
@@ -257,7 +281,7 @@ body{
     border-radius: 7px;
     background-color: white;
     padding: 15px;
-    height: 360px;
+    height: 560px;
     width: 30%;
 }
 #standard:hover{
@@ -271,14 +295,14 @@ body{
     border-radius: 7px;
     background-color: white;
     padding: 15px;
-    height: 360px;
+    height: 560px;
     width: 30%;
 }
 #premium:hover{
     background-color: #252B42;
     color: white;
     transform: translateY(-7px);
-  transition: transfom.3s;
+  transition: transfom.5s;
 }
 .packages_box button{
     color: white;
@@ -287,6 +311,7 @@ body{
     margin-top: 10%;
     border: none;
     border-radius: 10%;
+    
 }
 .branches{
     display: flex;
