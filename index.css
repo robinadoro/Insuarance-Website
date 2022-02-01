@@ -315,12 +315,10 @@ body{
     width: 80% 
 }
 .branches{
-    display: flex;
-    flex-direction: row;
-    color: #FFFFFF;
     background-color: #252B42;
-    text-align: center;
     height: 800px;
+    display: inline-flex;
+    width: 100%;
    
 }
 .branches img{
@@ -334,6 +332,8 @@ body{
 #branches_text{
     padding-left: 18%;
     margin-top: 3%;
+    color: white;
+    
    
 }
 
