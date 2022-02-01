@@ -3,6 +3,7 @@
 }
 body{
     background-color: #FAFAFA;
+    overflow-x: auto;
 }
 #brand{
     margin-left: -100px;
@@ -39,10 +40,7 @@ body{
     align-items: center;
     margin-right: 15%;
     margin-left: 15%;
-}
-#login{
-    font-weight: bold;
-    padding-left: 50%;
+} about how small 50%;
     margin-top: 3%;
     color: white;
     margin-left: -70px;
