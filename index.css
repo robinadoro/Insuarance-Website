@@ -4,9 +4,10 @@
 body{
     background-color: #FAFAFA;
     overflow-x: auto;
+    overflow-y: auto;
 }
 #brand{
-    margin-left: -100px;
+    margin-left: 250px;
     color: white;
     font-weight: bold;
 }
@@ -40,15 +41,13 @@ body{
     align-items: center;
     margin-right: 15%;
     margin-left: 15%;
-} about how small 50%;
+
     margin-top: 3%;
     color: white;
-    margin-left: -70px;
-    
-    
+    margin-left: -70px; 
 }
 #become_button{
-    padding-left: 10%; 
+    padding-left: 52%; 
 }
 .end-btn {
     margin-top: 2vw;
@@ -369,10 +368,8 @@ padding-left: 42px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /*padding: 15px;
-    margin: 30px;*/
     box-shadow: 0 0 0.6px;
-}ness
+}
 .consulting button{
     color: white;
     background-color: #23A6F0;
@@ -380,7 +377,6 @@ padding-left: 42px;
     margin-top: 10%;
     border: none;
     border-radius: 10%;
-
 }
 #copyicons{
   position: absolute;
