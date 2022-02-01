@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body{
     background-color: #FAFAFA;
@@ -179,21 +179,25 @@ body{
 #user1, #user2, #user3{
     border: 15% solid #D8D8DA;
     justify-content: space-around;
+    background-color: white;
+    text-align: center;
 }
 .users img{
 
     border-radius: 50%;
     background-color: #D5D5D7;
     height: 40%;
+    margin-left: 3%;
+    margin-top: 15%;
 
 }
 .icons{
-    margin-bottom: 2%;
-    margin-right: 15%;
-    margin-left: 15%;
-    justify-content: space-between;
-    align-items: center;
+    margin-bottom: 7%;
+    margin-right: 18%;
+    margin-left: 18%;
+    justify-content: space-evenly;
 }
+
 .icons img{
     height: 2%;
     width: 9%;
