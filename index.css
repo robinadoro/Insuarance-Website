@@ -252,6 +252,7 @@ body{
     align-items: flex-start;
     justify-content: space-between;  
     padding: 10%;
+    font-weight: bold;
 }
 #free{
     border: 1px solid #23A6F0;
@@ -310,7 +311,9 @@ body{
     padding: 12px 6px 12px;
     margin-top: 10%;
     border: none;
-    border-radius: 10%;
+    border-radius: 5%;
+    width: 80%
+
     
 }
 .branches{
