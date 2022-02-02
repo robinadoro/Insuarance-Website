@@ -317,24 +317,32 @@ body{
 .branches{
     background-color: #252B42;
     height: 800px;
-    display: inline-flex;
+    
     width: 100%;
    
 }
 .branches img{
     height: 150px;
     width: 300px;
+    
+}
+#map{
     padding: 30px;
     position: relative;
-    margin-left: 40%;
-    margin-top: 3%;
+    margin-left: 60%;
+    margin-top: -500px;
 }
 #branches_text{
-    padding-left: 18%;
-    margin-top: 3%;
     color: white;
-    
-   
+    padding: 10%;
+
+}
+#branches_text>h2{
+    font-size: 300%;
+
+}
+.book{
+    align-items: flex-start;
 }
 
 .footer-info{
