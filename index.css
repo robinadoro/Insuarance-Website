@@ -321,10 +321,8 @@ body{
 }
 .branches{
     background-color: #252B42;
-    height: 800px;
-    
-    width: 100%;
-   
+    height: 800px; 
+    width: 100%;   
 }
 .branches img{
     height: 150px;
@@ -347,9 +345,40 @@ body{
 
 }
 .book{
-    align-items: flex-start;
+    height: 350px;
+    display: inline-flex;
+    margin-top: -150px;
+    padding-left: 380px;
+   
 }
-
+#book_image{
+    padding-top: 60px;
+    padding-left: 150px;
+    margin-top: -180px;    
+}
+#book_image img{
+    height: 650px;
+}
+#book_form{
+    color: #252B42;
+    align-items: left;
+    padding: 10%;
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    margin-top: -50px;
+}
+#book_form h3{
+    font-weight: bold;
+    text-align: center;
+    
+}
+#form_content{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+   
+}
 .footer-info{
     background-color: white);
     display: inline-flex;
@@ -393,6 +422,9 @@ padding-left: 42px;
     margin-top: 10%;
     border: none;
     border-radius: 10%;
+}
+.consulting{
+    background-color: #FAFAFA;
 }
 #copyicons{
   position: absolute;
