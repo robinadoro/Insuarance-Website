@@ -11,6 +11,7 @@ body{
     color: white;
     font-weight: bold;
 }
+
 .top_page{
   background-image: url("./imgs/hero-cover.png"); 
   background-repeat: no-repeat; 
@@ -47,8 +48,12 @@ body{
     color: white;
     margin-left: -70px; 
 }
+#login{
+    margin-left: 30%;
+    margin-right: 1%;
+}
 #become_button{
-    padding-left: 52%; 
+    padding-left: 10%; 
 }
 .end-btn {
     margin-top: 2vw;
